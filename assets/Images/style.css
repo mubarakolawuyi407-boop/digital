@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    box-shadow: 0 2px 1px -1px rgba(225,225,225,0.1),
+    0 2px 1px -1px rgba(0,0,0,0.06);
+    padding-top: 2opx;
+    position:relative;
+    z-index: 10;
+}
+.navlinks{
+    display: flex;
+    gap: 4rem;
+    list-style:none ;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    justify-content: space-between;
+}

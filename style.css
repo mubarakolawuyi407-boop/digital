@@ -1,0 +1,161 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    box-shadow: 0 2px 1px -1px rgba(225,225,225,0.1),
+    0 2px 1px -1px rgba(0,0,0,0.06);
+    z-index: 20;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom:40px;
+    /*position:relative;
+    z-index:20*/
+}
+.navlinks {
+    display: flex;
+    gap: 4rem;
+    list-style:none ;
+    cursor: pointer;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    justify-content: space-between;
+}
+.feature-grid{
+display: flex;
+flex-direction: column;
+padding-left: 40px;
+padding-top: 20px;
+}
+.icon-online{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.feature-grid-2{
+display: flex;
+flex-direction: column;
+padding-left: 40px;
+padding-top: 20px;
+}
+.icon.budgeting{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.feature-grid-3{
+display: flex;
+flex-direction: column;
+padding-left:  40px;
+padding-top: 20px;
+}
+.icon-onboarding{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-bottom: 20px;
+padding-left: 40px;
+padding-top: 20px;
+}
+.feature-grid-4{
+    display:flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.icon-Api{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 600px){
+ .hero-section{
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px
+ }
+}
+
+@media screen and (max-width:600px){
+.header{
+padding-left: 30px;
+}
+}
+
+@media screen and (max-width: 600px){
+.image{
+display:none;
+}
+} 
+@media screen and (max-width:600px){
+.navlinks{
+display: none;
+}   
+}
+
+@media screen and (min-width:992px) {
+    .mobile{
+    display: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+ #content {
+    padding-top: 0px;
+    gap: 0px;
+ }  
+}
+
+@media screen and (max-width:600px) {
+ #requestbtn{
+ padding: 10px 20px;
+ font-size: 1rem;
+ color: white;
+ border: none;
+cursor: pointer;
+margin: 0 auto;
+ }   
+}
+
+@media screen and (max-width:600px) {
+.navbar{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+}
+
+@media screen and (max-width:600px) {
+.second-page{
+display: none;
+}
+}
